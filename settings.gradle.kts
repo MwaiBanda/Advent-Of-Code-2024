@@ -1,4 +1,4 @@
-rootProject.name = "Advent of Code Kotlin Template"
+rootProject.name = "Advent-Of-Code-2024"
 
 dependencyResolutionManagement {
     repositories {
