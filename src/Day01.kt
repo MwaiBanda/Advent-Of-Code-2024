@@ -12,10 +12,9 @@ fun main() {
         firstList.sort()
         secondList.sort()
 
-        val differences = firstList.mapIndexed { index, i ->
+        return firstList.mapIndexed { index, i ->
             abs(i - secondList[index])
-        }
-        return differences.reduce { acc, i -> acc + i }
+        }.reduce { acc, i -> acc + i }
     }
     fun part2(): Int {
         val input = readInput("Day01")
